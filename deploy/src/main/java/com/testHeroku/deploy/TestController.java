@@ -12,4 +12,9 @@ public class TestController {
     public String greeting() {
         return "Hello,World!";
     }
+
+    @GetMapping("/hello2")
+    public String greeting2() {
+        return "Hello,World 2!";
+    }
 }
